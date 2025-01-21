@@ -1,9 +1,10 @@
 Project Name: HealthSync
 
 Team Members:
-
 Sriram Thota
+
 Nabeel Ahmed Mohammed
+
 Sai Teja Appani
 
 Project Description:
