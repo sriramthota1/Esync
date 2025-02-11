@@ -7,7 +7,7 @@ Date: 11th February 2025
 
 https://user-images.githubusercontent.com/48183518/152627055-8cbd798f-99c7-404e-b31d-b9f6a9fc8bb2.mp4
 
-<h1>A Demo of the What2Watch Platform Back-end using Postman</h1>
+<h1>A Demo of HealthSync Website Back-end using Postman</h1>
 
 
 https://user-images.githubusercontent.com/48183518/152628099-519e68bf-d664-434d-9df0-1c1884f5010e.mp4
@@ -18,18 +18,20 @@ https://user-images.githubusercontent.com/48183518/152628099-519e68bf-d664-434d-
 <br>
 
 User Stories for Sprint 1:
-* As a user, I would like to use the What2Watch platform for a movie suggestion. 
+* As a user, I would like to use HealthSync Website for Fitness. 
 
 - As a user, I would have to answer 6 questions to generate a random movie suggestion.
 
-    - What is the watching occasion?
-    - Select your preferred viewing platform. (Multiple Selection Option)
-    - Please select the genre of the Movie? (Multiple Selection Option)
-    - Should the movie be age-appropriate?
-    - How old would you like the movie to be?
-    - Preferred IMDB movie rating?
+  
+    -What is your fitness goal?
+    -Select your preferred workout type. (Multiple Selection Option)
+    -Please select the workout intensity level. (Multiple Selection Option)
+    -Should the workout be age-appropriate?
+    -How long should the workout be?
+    -What is your current fitness level?
+    
 
-- As a user, I would like to sign up/login to use the What2Watch platform and the features it provides.
+- As a user, I would like to sign up/login to use the HealthSync Website and the features it provides.
 
 <hr>
 
