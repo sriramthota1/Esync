@@ -23,12 +23,12 @@ User Stories for Sprint 1:
 - As a user, I would have to answer 6 questions to generate a random movie suggestion.
 
   
-    -What is your fitness goal?
-    -Select your preferred workout type. (Multiple Selection Option)
-    -Please select the workout intensity level. (Multiple Selection Option)
-    -Should the workout be age-appropriate?
-    -How long should the workout be?
-    -What is your current fitness level?
+    -What is your fitness goal?<br>
+    -Select your preferred workout type. (Multiple Selection Option)<br>
+    -Please select the workout intensity level. (Multiple Selection Option)<br>
+    -Should the workout be age-appropriate?<br>
+    -How long should the workout be?<br>
+    -What is your current fitness level?<br>
     
 
 - As a user, I would like to sign up/login to use the HealthSync Website and the features it provides.
