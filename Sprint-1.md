@@ -37,7 +37,7 @@ User Stories for Sprint 1:
 
 <h2>Tasks Accomplished in the Front-end</h2>
 
-<img src="https://github.com/Ashel1/WhatToWatch/blob/57e73dea25b6442db40ace8d31b4666b7e4e4c8c/images/angularcli.jpg" height="150" width="500"/>
+<img src="https://github.com/sriramthota1/Esync/blob/77bff5122b65585c60d7a7ef6425a2fd8488d44a/Files/Angular-CLI-Logo.png"/>
 
 - Set up the Environemnt for Angular from https://angular.io/guide/setup-local
 - Referred to https://material.angular.io/ to design the components
