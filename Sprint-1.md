@@ -51,7 +51,7 @@ User Stories for Sprint 1:
 <hr>
 <h2>Tasks Accomplished in the Back-end</h2>
 
-<img src="https://github.com/Ashel1/WhatToWatch/blob/5fa54d47f8c0b96912c5378442eec04433270f0f/images/go.png" height="200" width="450"/>
+<img src="https://github.com/Ashel1/WhatToWatch/blob/5fa54d47f8c0b96912c5378442eec04433270f0f/images/go.png" height="175" width="550"/>
 
 - Set up the Environemnt for Golang from https://go.dev/doc/install
 - Referred to https://go.dev/doc/ to learn the basics
