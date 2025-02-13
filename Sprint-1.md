@@ -5,7 +5,11 @@ Date: 11th February 2025
 
 <h1>A Demo of HealthSync Website Front-end</h1>
 
-https://user-images.githubusercontent.com/48183518/152627055-8cbd798f-99c7-404e-b31d-b9f6a9fc8bb2.mp4
+
+https://github.com/user-attachments/assets/e9e38cfa-386a-425c-86f1-25b861c59437
+
+
+
 
 <h1>A Demo of HealthSync Website Back-end using Postman</h1>
 
