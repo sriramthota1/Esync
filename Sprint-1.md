@@ -18,10 +18,8 @@ https://github.com/user-attachments/assets/b8ee4d9f-5898-4267-ab2b-3d7ce776e00b
 
 (View and Download videos from files directory)
 <br>
-<h1>Tasks accomplished in Sprint 1</h1>
+<h1>User Stories</h1>
 <br>
-
-**User Stories:**
 
 **1. Patients**
 - **As a patient**, I want to **view all my medical records in one place**, so that I can easily access my health history when needed.  
