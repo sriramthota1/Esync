@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/e9e38cfa-386a-425c-86f1-25b861c59437
 <h1>A Demo of HealthSync Website Back-end using Postman</h1>
 
 
-https://user-images.githubusercontent.com/48183518/152628099-519e68bf-d664-434d-9df0-1c1884f5010e.mp4
+https://github.com/user-attachments/assets/b8ee4d9f-5898-4267-ab2b-3d7ce776e00b
 
 
 <br>
