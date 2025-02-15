@@ -21,21 +21,20 @@ https://github.com/user-attachments/assets/b8ee4d9f-5898-4267-ab2b-3d7ce776e00b
 <h1>Tasks accomplished in Sprint 1</h1>
 <br>
 
-User Stories for Sprint 1:
-* As a user, I would like to use HealthSync Website for Fitness. 
+**User Stories:**
 
-- As a user, I would have to answer 6 questions to generate a random movie suggestion.
+**1. Patients**
+- **As a patient**, I want to **view all my medical records in one place**, so that I can easily access my health history when needed.  
+- **As a patient**, I want to **book and manage appointments with different healthcare providers**, so that I can avoid scheduling conflicts and missed visits.  
+- **As a patient**, I want to **receive reminders for upcoming appointments and medication schedules**, so that I don't forget important health-related tasks.  
+- **As a patient**, I want to **securely share my medical history with new healthcare providers**, so that I can avoid unnecessary tests and delays in treatment.  
 
-  
-    -What is your fitness goal?<br>
-    -Select your preferred workout type. (Multiple Selection Option)<br>
-    -Please select the workout intensity level. (Multiple Selection Option)<br>
-    -Should the workout be age-appropriate?<br>
-    -How long should the workout be?<br>
-    -What is your current fitness level?<br>
-    
+**2. Healthcare Providers**
+- **As a healthcare provider**, I want to **access a patient's complete medical history in one place**, so that I can make better-informed treatment decisions.  
+- **As a healthcare provider**, I want to **send prescriptions electronically to pharmacies**, so that I can reduce paperwork and speed up the process.  
+- **As a healthcare provider**, I want to **communicate securely with other doctors and specialists**, so that I can collaborate on patient care more effectively.  
+- **As a healthcare provider**, I want to **schedule follow-up visits and manage patient appointments**, so that I can ensure continuous care.  
 
-- As a user, I would like to sign up/login to use the HealthSync Website and the features it provides.
 
 <hr>
 
@@ -50,7 +49,7 @@ User Stories for Sprint 1:
 - Designed the Login Component
 - Designed the Sign Up Component
 - Implemented Login and Registration of users by simulating a Fake REST API using JSON server
-- Designed the Pages for Question 1 to Question 6 along with answers to choose from
+- Designed the Pages for modules mentioned in user stories
 
 <hr>
 <h2>Tasks Accomplished in the Back-end</h2>
