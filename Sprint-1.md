@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/b8ee4d9f-5898-4267-ab2b-3d7ce776e00b
 - Designed the Login Component
 - Designed the Sign Up Component
 - Implemented Login and Registration of users by simulating a Fake REST API using JSON server
-- Designed the Pages for modules mentioned in user stories
+- Designed the dashboard page for modules mentioned in user stories
 
 <hr>
 <h2>Tasks Accomplished in the Back-end</h2>
