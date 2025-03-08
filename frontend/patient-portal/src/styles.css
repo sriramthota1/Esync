@@ -1,0 +1,224 @@
+/* Background Styling */
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Centered Card */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #667eea;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #764ba2;
+}
+
+.toggle {
+  color: #667eea;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.dashboard-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Home Page */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.quick-links {
+  margin-top: 20px;
+}
+
+.quick-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quick-btn:hover {
+  background: #5a67d8;
+}
+
+/* Schedule Page */
+.schedule-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Patients Page */
+.patients-container {
+  padding: 20px;
+}
+
+.patients-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.patients-container li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Prescriptions Page */
+.prescriptions-container {
+  padding: 20px;
+}
+
+.prescriptions-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.prescriptions-container li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+
+
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background: #667eea;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar-btn {
+  display: block;
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.sidebar-btn:hover {
+  background: #5a67d8;
+}
+
+/* ✅ Highlight Active Menu Item */
+.sidebar-btn.active {
+  background: white;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.logout {
+  background: red;
+  margin-top: 20px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.welcome-message {
+  font-size: 24px;
+  color: #333;
+}
+
+
+
+.dashboard-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.dashboard-section {
+  margin-top: 20px;
+}
+
+
+.toggle:hover {
+  text-decoration: underline;
+}
