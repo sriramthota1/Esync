@@ -20,9 +20,8 @@
 - **Content** :
 ```json
 {
-    "id": 1,
-    "Firstname": "John",
-    "Lastname": "Doe",
-    "email": "johndoe@ufl.edu",
-    "username": "johndoe123"
+    "Firstname": "test",
+    "Lastname": "User",
+    "email": "testuser@ufl.edu",
+    "username": "testpass"
 }
