@@ -18,7 +18,7 @@ User Stories for Sprint 2:
 - End-to-end Testing using Cypress
 - Unit testing
  
- Unit Testing using Karma and Jasmine:
+ Unit Testing:
 
 
 https://github.com/user-attachments/assets/df0e285a-0b97-49de-8fcc-388294a8bccb
