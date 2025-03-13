@@ -1,21 +1,21 @@
 
 ---
 
-## **3. Get User Profile**
-```markdown
-### Get User Profile
+**3. Get User Profile**
+
+**Get User Profile**
 
 **URL** : `/api/profile/`  
 **Method** : `GET`  
-**Auth required** : ✅ Yes  
+**Auth required** :  Yes  
 **Permissions required** : User must be authenticated  
 
-#### Headers:
+**Headers:**
 | Parameter | Description |
 |-----------|------------|
 | Authorization | `Bearer <token>` |
 
-#### Success Response:
+**Success Response:**
 - **Code** : `200 OK`  
 - **Content** :
 ```json
