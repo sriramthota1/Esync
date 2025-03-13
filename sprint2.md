@@ -46,4 +46,4 @@ https://user-images.githubusercontent.com/48183518/156868781-46cf93be-d3c4-45a6-
 <h2>Backend API Documentation</h2>
 
  - The API documentation is present in the backend/API Documentation/ 
-   Link: https://github.com/Ashel1/WhatToWatch/tree/main/backend/API%20Documentation
+   Link: https://github.com/sriramthota1/Esync/tree/main/API%20Documentation
