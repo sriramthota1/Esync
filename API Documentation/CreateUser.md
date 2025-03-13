@@ -33,18 +33,18 @@ Create an Account for the User if an Account for that particular User does not a
 Data Examples for user
 ```
 {
-    "Firstname": "[abcde]",
-    "Lastname": "[xyz]",
-    "email": "[abcde@ufl.edu]",
-    "password": "[12345]",
+    "Firstname": "[test]",
+    "Lastname": "[user]",
+    "email": "[testuser1@ufl.edu]",
+    "password": "testpass",
 }
 ```
 | Parameter      | Sample Input 
 | :---        |    ----:  
-| Firstname      | abcde      
-| Lastname   | xyz     
-| Email      |abcde@ufl.edu       
-| password      | 12345      
+| Firstname      | test      
+| Lastname   | User     
+| Email      |testuser@ufl.edu       
+| password      | testpass      
 ## Success Response
 
 Condition : If everything is OK and an Account didn't exist for this User.
