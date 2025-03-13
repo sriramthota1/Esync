@@ -1,5 +1,8 @@
 **Project Name:** </br>HealthSync
 
+![image](https://github.com/user-attachments/assets/3c241934-3719-4b0a-a2f1-b060a05c1070)
+
+
 **Team Members:**</br>
 Sriram Thota</br>
 Nabeel Ahmed Mohammed</br>
