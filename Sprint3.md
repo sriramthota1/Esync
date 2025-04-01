@@ -28,22 +28,23 @@ https://github.com/user-attachments/assets/e04a587d-b0b1-4547-86e3-836d2b6e8066
 
 <h2>Tasks Accomplished in the Front-end</h2>
 
-- Displayed the movie name and movie details based on user's answers.  
-- Showed the embedded youtube video for the movie trailer.
-- Added the functionality for logout and displayed current username.
-
-
-
-
-- Displayed Watchlist option and Watch history option for user's logged in.
+- Developed a form for booking appointments, connected to the POST /book-appointment API.
+- Created a dashboard view to display all booked appointments using data from the GET /appointments API.
+- Built a file upload interface to allow users to upload prescription documents.
+- Implemented a prescription listing view that displays all uploaded files.
+- Created Angular service functions to integrate all backend APIs with the frontend components.
 - Did the cypress end to end testing for login and register functionality
 
 
 <hr>
 <h2>Tasks Accomplished in the Back-end</h2>
 
-- Created addWatchLater and addWatchHistory API to add movies to these two categories for a particular user. 
-- Created getWatchLater and getWatchHistory API to get the data that has been added by the addWatchLater and addWatchHistory, this is based on username the backend recieves from the frontend. 
+- Implemented POST /book-appointment API to allow users to book appointments with date and time.
+- Implemented GET /appointments API to retrieve all booked appointments from the database.
+- Implemented POST /upload-prescription API to handle file uploads and store prescription filenames.
+- Implemented GET /prescriptions API to fetch the list of uploaded prescriptions.
+- Set up database schema with SQLite, creating tables for appointments and prescriptions if they don't exist.
+- Added logic to store uploaded prescription files in the server-side uploads/ directory.
 - Tested the newly designed API using Postman. 
 - Unit Testing for backend API's
 - API documentation for the newly created API's
