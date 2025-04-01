@@ -5,7 +5,7 @@ import axios from "axios";
 import './Appointments.css';
 
 
-function Appointments() {
+function Appointments(){
   const [appointmentType, setAppointmentType] = useState("");
   const [selectedDate, setSelectedDate] = useState("");
   const [selectedTime, setSelectedTime] = useState("");
@@ -34,7 +34,7 @@ function Appointments() {
       alert("✅ Appointment booked successfully!");
       console.log("Response:", response.data);
 
-      // Reset form
+      // Reset form after use
       setAppointmentType("");
       setSelectedDate("");
       setSelectedTime("");
