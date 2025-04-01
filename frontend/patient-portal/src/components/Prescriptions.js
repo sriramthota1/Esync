@@ -1,6 +1,6 @@
 import React from 'react';
 import './Page.css';
-
+//for tacking everytime
 const Prescriptions = () => {
   return (
     <div className="page-container">
