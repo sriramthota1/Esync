@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { FaUser } from 'react-icons/fa';
 import { FaUserMd, FaCalendarCheck, FaPills, FaChartLine, FaShieldAlt, FaLaptopMedical } from 'react-icons/fa';
 import './Dashboard.css';
-//sidebar arranging
+
 const modules = [
   { name: "User Management", icon: <FaUserMd />, description: "Manage patient and provider profiles." },
   { name: "Appointments", icon: <FaCalendarCheck />, description: "Schedule and manage doctor appointments." },
