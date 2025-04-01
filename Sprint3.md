@@ -18,9 +18,7 @@ https://user-images.githubusercontent.com/63602357/161354878-19bcce6f-84fa-4c0b-
 
 <h1>A Demo of the What2Watch Platform Back-end using Postman</h1>
 
-
-
-[![Watch the demo](https://raw.githubusercontent.com/sriramthota1/Esync/refs/heads/main/Files/Backend%20Sprint-3.mp4)
+https://github.com/user-attachments/assets/e04a587d-b0b1-4547-86e3-836d2b6e8066
 
 
 <br>
@@ -33,6 +31,10 @@ https://user-images.githubusercontent.com/63602357/161354878-19bcce6f-84fa-4c0b-
 - Displayed the movie name and movie details based on user's answers.  
 - Showed the embedded youtube video for the movie trailer.
 - Added the functionality for logout and displayed current username.
+
+
+
+
 - Displayed Watchlist option and Watch history option for user's logged in.
 - Did the cypress end to end testing for login and register functionality
 
