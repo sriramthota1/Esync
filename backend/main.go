@@ -1,5 +1,5 @@
 package main
-
+//initializing the required file through import
 import (
 	"database/sql"
 	"fmt"
