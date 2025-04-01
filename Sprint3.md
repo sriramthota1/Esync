@@ -1,22 +1,22 @@
 
 <h1>What2Watch - The Movie Recommendation Platform</h1>
 <h2>Sprint 3</h2> <br>
-Date: 1st April 2022
+Date: 31st March 2025
 
 
-<h1>A Demo of the What2Watch Platform</h1>
+<h1>A Demo of the Healthsync Platform</h1>
 
 
 https://user-images.githubusercontent.com/48183518/161352161-cf3c5e83-3297-4560-81bf-157745b8de41.mp4
 
-<h1>A Demo of the What2Watch Platform Front-end Testing</h1>
+<h1>A Demo of the Healthsync Platform Front-end Testing</h1>
 
 
 https://user-images.githubusercontent.com/63602357/161354878-19bcce6f-84fa-4c0b-bc30-b59bcc841864.mp4
 
 
 
-<h1>A Demo of the What2Watch Platform Back-end using Postman</h1>
+<h1>A Demo of the Healthsync Platform Back-end using Postman</h1>
 
 https://github.com/user-attachments/assets/e04a587d-b0b1-4547-86e3-836d2b6e8066
 
