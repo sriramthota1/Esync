@@ -3,7 +3,7 @@ describe('Dashboard Page Test', () => {
         cy.visit('http://localhost:3000/auth');
 
         cy.intercept('POST', '**/login', {
-            statusCode: 200,
+            statusCode: 200, 
             body: {
                 message: 'Login successful',
                 token: 'fake-jwt-token'
