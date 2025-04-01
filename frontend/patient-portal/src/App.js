@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Auth from "./components/Auth";
 import Dashboard from "./components/Dashboard";
 import Sidebar from "./components/Sidebar";
-import Profile from "./components/Profile";
+import Profile from "./components/Profile"; 
 import Appointments from "./components/Appointments";
 import Prescriptions from "./components/Prescriptions";
 import Analytics from "./components/Analytics";
