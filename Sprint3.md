@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/63602357/161354878-19bcce6f-84fa-4c0b-
 
 
 
-https://raw.githubusercontent.com/sriramthota1/Esync/refs/heads/main/Files/Backend%20Sprint-3.mp4
+[![Watch the demo](https://raw.githubusercontent.com/sriramthota1/Esync/refs/heads/main/Files/Backend%20Sprint-3.mp4)
 
 
 <br>
