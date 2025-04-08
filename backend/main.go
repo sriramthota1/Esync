@@ -15,6 +15,7 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
+
 var db *sql.DB
 var secretKey = "supersecretkey" // Change this in production
 
