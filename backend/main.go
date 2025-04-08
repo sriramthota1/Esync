@@ -73,13 +73,7 @@ func checkPasswordHash(password, hash string) bool {
 }
 
 // ✅ Generate JWT Token
-func generateToken(username string) (string, error) {
-	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
-		"username": username,
-		"exp":      time.Now().Add(time.Hour * 24).Unix(), // Token expires in 24 hours
-	})
-	return token.SignedString([]byte(secretKey))
-}
+
 
 // ✅ Middleware to Verify JWT Token
 func authMiddleware() gin.HandlerFunc {
