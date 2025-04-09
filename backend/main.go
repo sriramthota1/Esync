@@ -132,7 +132,35 @@ func registerUser(c *gin.Context) {
 
 // ✅ Login User
 
+func loginUser(c *gin.Context) {
+	var user User
+	var storedUser User
 
+	if err := c.BindJSON(&user); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid input"})
+		return
+	}
+
+	row := db.QueryRow("SELECT id, username, password FROM users WHERE username=?", user.Username)
+	err := row.Scan(&storedUser.ID, &storedUser.Username, &storedUser.Password)
+	if err != nil {
+		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid credentials"})
+		return
+	}
+
+	if !checkPasswordHash(user.Password, storedUser.Password) {
+		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid credentials"})
+		return
+	}
+
+	token, err := generateToken(storedUser.Username)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to generate token"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"message": "Login successful", "token": token})
+}
 
 // ✅ Save Appointment API (Protected)
 func bookAppointment(c *gin.Context) {
