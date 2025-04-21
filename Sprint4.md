@@ -53,9 +53,4 @@ Date: 21st April 2025
 | `prescription_test.go` | Tests upload and retrieval logic for prescriptions  |
 
 ---
-```json
-{
-  "date": "2025-04-01",
-  "time": "10:30"
-}
 
