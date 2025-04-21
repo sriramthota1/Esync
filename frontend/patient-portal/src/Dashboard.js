@@ -183,23 +183,4 @@ const PrescriptionsPage = () => {
           .catch(() => alert("Error uploading file"));
   };
 
-  return (
-      <div className="prescriptions-container">
-        
-          <h1>Upload & View Prescriptions</h1>
-          <input type="file" onChange={(e) => setFile(e.target.files[0])} className="input" />
-          <button onClick={handleUpload} className="btn">Upload</button>
-
-          <h2>Prescription Files</h2>
-          <ul>
-              {prescriptions.map((p) => (
-                  <li key={p.id}>
-                      <a href={p.url} target="_blank" rel="noopener noreferrer">{p.filename}</a>
-                  </li>
-              ))}
-          </ul>
-      </div>
-  );
-};
-
 export default Dashboard;
