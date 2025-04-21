@@ -1,7 +1,6 @@
-
-<h1>What2Watch - The Movie Recommendation Platform</h1>
+<h1>Health-Sync Platform</h1>
 <h2>Sprint 4</h2> <br>
-Date: 20th April 2022
+Date: 21st April 2025
 <br>
 
 <h1>Tasks accomplished in Sprint 4</h1>
