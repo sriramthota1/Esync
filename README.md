@@ -16,10 +16,10 @@ The program focuses on improving care coordination, reducing redundancies, and g
 
 
 🧰 Tech Stack
-- **Frontend:** Angular
-- **Backend:** Go (Golang)
-- **Database:** SQLite
-- **Testing:** Cypress, Jasmine, Go test
+- Frontend: Angular
+- Backend: Go (Golang)
+- Database: SQLite
+- Testing: Cypress, Jasmine, Go test
 
 
 ⚙️ Requirements
