@@ -1,4 +1,4 @@
-Project Description
+## Project Description
 ```markdown
 Health-sync - Health Information Management System
 This project tries to solve the problems patients face in managing their health information across multiple platforms and providers.
@@ -33,7 +33,7 @@ Frontend
 
 
 ```
-🛠️ Running the Application
+## 🛠️ Running the Application
 
 ### 1. Clone the Repository
 
