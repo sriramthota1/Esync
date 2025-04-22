@@ -1,5 +1,7 @@
 import React from 'react';
 import './Page.css';
+import './Profile.js';
+import './Profile.css';
 
 const Security = () => {
   return (
