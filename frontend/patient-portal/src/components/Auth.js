@@ -21,8 +21,7 @@ function Auth({ setIsAuthenticated }) {
     try {
       const response = await axios.post(endpoint, { username, password });
 
-      console.log("✅ Response:", response.data);
-
+      console.log("✅ Response:", response.data);#token is assigned
       if (isLogin) {
         localStorage.setItem("token", response.data.token);
         localStorage.setItem("isAuthenticated", "true");
@@ -60,6 +59,13 @@ function Auth({ setIsAuthenticated }) {
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+         <input
+            type="mail"
+            placeholder="Enter your Mail"
+            value={Mail}
+            onChange={(e) => setmail(e.target.value)}
             required
           />
           <button type="submit">{isLogin ? "Login" : "Signup"}</button>
