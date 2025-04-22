@@ -72,7 +72,7 @@ func checkPasswordHash(password, hash string) bool {
 	return err == nil
 }
 
-// ✅ Generate JWT Token
+//  Generate JWT Token
 func generateToken(username string) (string, error) {
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.MapClaims{
 		"username": username,
@@ -81,7 +81,7 @@ func generateToken(username string) (string, error) {
 	return token.SignedString([]byte(secretKey))
 }
 
-// ✅ Middleware to Verify JWT Token
+// Middleware to Verify JWT Token
 func authMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		tokenString := c.GetHeader("Authorization")
@@ -107,7 +107,7 @@ func authMiddleware() gin.HandlerFunc {
 	}
 }
 
-// ✅ Register User (Signup)
+//  Register User (Signup)
 func registerUser(c *gin.Context) {
 	var user User
 	if err := c.BindJSON(&user); err != nil {
@@ -130,7 +130,7 @@ func registerUser(c *gin.Context) {
 	c.JSON(http.StatusCreated, gin.H{"message": "User registered successfully"})
 }
 
-// ✅ Login User
+//  Login User
 
 func loginUser(c *gin.Context) {
 	var user User
@@ -162,7 +162,7 @@ func loginUser(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"message": "Login successful", "token": token})
 }
 
-// ✅ Save Appointment API (Protected)
+//  Save Appointment API (Protected)
 func bookAppointment(c *gin.Context) {
 	username, _ := c.Get("username")
 	userID := getUserID(username.(string))
@@ -186,7 +186,7 @@ func bookAppointment(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"message": "Appointment booked successfully"})
 }
 
-// ✅ Get User ID from username
+//  Get User ID from username
 func getUserID(username string) int {
 	var id int
 	row := db.QueryRow("SELECT id FROM users WHERE username=?", username)
@@ -194,7 +194,7 @@ func getUserID(username string) int {
 	return id
 }
 
-// ✅ Get All Appointments API (Protected)
+//  Get All Appointments API (Protected)
 func getAppointments(c *gin.Context) {
 	username, _ := c.Get("username")
 	userID := getUserID(username.(string))
@@ -217,7 +217,7 @@ func getAppointments(c *gin.Context) {
 	c.JSON(http.StatusOK, appointments)
 }
 
-// ✅ File Upload API (Protected)
+//  File Upload API (Protected)
 func uploadPrescription(c *gin.Context) {
 	username, _ := c.Get("username")
 	userID := getUserID(username.(string))
