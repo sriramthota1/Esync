@@ -22,6 +22,11 @@ function App() {
       setIsAuthenticated(localStorage.getItem("isAuthenticated") === "true");
     };
 
+  useEffect(() => {
+    const handleStorageStatus = () => {
+      setIsAuthenticated(localStorage.getItem("isAuthenticated") === "true");
+    };
+
     window.addEventListener("storage", handleStorageChange);
     return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
