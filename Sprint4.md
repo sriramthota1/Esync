@@ -17,7 +17,7 @@ Date: 21st April 2025
   - Fetching appointments
   - Uploading and listing prescriptions
 
-### Frontend (Angular)
+### Frontend (React & Angular)
 - Integrated proper HTTP error handling in service calls.
 - Refined UI components for appointment and prescription modules.
 - Connected Angular services more robustly with backend API responses.
