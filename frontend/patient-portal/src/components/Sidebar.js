@@ -16,7 +16,6 @@ function Sidebar({ setIsAuthenticated }) {
     // Update state to remove Sidebar
     setIsAuthenticated(false);
     window.dispatchEvent(new Event("storage"));
-
     navigate("/auth");
   };
 
@@ -30,7 +29,7 @@ function Sidebar({ setIsAuthenticated }) {
           <li onClick={() => navigate("/appointments")}>Appointments</li>
           <li onClick={() => navigate("/prescriptions")}>Prescriptions</li>
           <li onClick={() => navigate("/analytics")}>Analytics</li>
-          <li onClick={() => navigate("/security")}>Security</li>
+          <li onClick={() => navigate("/security & Authentication")}>Security</li>
           <li onClick={() => navigate("/ehr")}>EHR</li>
         </ul>
       </div>
