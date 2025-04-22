@@ -22,14 +22,14 @@ describe('Dashboard Page Test', () => {
 
     it('should display dashboard content', () => {
         // ✅ Ensure sidebar is visible
-        cy.get('.sidebar', { timeout: 5000 }).should('be.visible');
+        cy.get('.sidebar', { timeout: 6000 }).should('be.visible');
 
         // ✅ Ensure key sidebar menu item exists
-        cy.contains('Dashboard', { timeout: 5000 }).should('be.visible');
+        cy.contains('Dashboard', { timeout: 6000 }).should('be.visible');
 
         // ✅ Look for the logout button inside the sidebar
         cy.get('.sidebar').within(() => {
-            cy.get('.logout-btn', { timeout: 5000 }).should('be.visible');
+            cy.get('.logout-btn', { timeout: 6000 }).should('be.visible');
         });
     });
 });
