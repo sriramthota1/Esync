@@ -4,7 +4,7 @@ describe('Login Page Test', () => {
   });
 
   it('should login successfully and navigate to dashboard', () => {
-      // ✅ Stub the login API response
+      // Stub the login API response
       cy.intercept('POST', '**/login', {
           statusCode: 200,
           body: {
@@ -13,20 +13,20 @@ describe('Login Page Test', () => {
           }
       }).as('loginRequest');
 
-      // ✅ Fill login form
+      // Fill login form
       cy.get('input[placeholder="Username"]').type('thotasriram906@gmail.com');
       cy.get('input[placeholder="Password"]').type('sriramnani1');
       cy.get('button[type="submit"]').click();
 
-      // ✅ Wait for API request
+      // Wait for API request
       cy.wait('@loginRequest');
 
-      // ✅ Ensure token is stored
+      // Ensure token is stored
       cy.window().then((win) => {
           expect(win.localStorage.getItem('token')).to.exist;
       });
 
-      // ✅ Ensure redirection happens
+      // Ensure redirection happens
       cy.url().should('include', '/dashboard');
   });
 
@@ -42,12 +42,12 @@ describe('Login Page Test', () => {
 
     cy.wait('@loginFail');
 
-    // ✅ Capture the alert instead of checking for a visible message
+    // Capture the alert instead of checking for a visible message
     cy.on('window:alert', (text) => {
         expect(text).to.contains('Something went wrong.');
     });
 
-    // ✅ Ensure the page doesn't redirect
+    // Ensure the page doesn't redirect
     cy.url().should('include', '/auth');
 });
 
