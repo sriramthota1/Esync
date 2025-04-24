@@ -78,7 +78,6 @@ h1 {
 .quick-links {
   margin-top: 20px;
 }
-
 .quick-btn {
   background: #667eea;
   color: white;
@@ -88,7 +87,6 @@ h1 {
   cursor: pointer;
   border-radius: 5px;
 }
-
 .quick-btn:hover {
   background: #5a67d8;
 }
@@ -97,4 +95,106 @@ h1 {
 .schedule-container {
   text-align: center;
   padding: 20px;
+}
+/* Patients Page */
+.patients-container {
+  padding: 20px;
+}
+
+.patients-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.patients-container li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+/* Prescriptions Page */
+.prescriptions-container {
+  padding: 20px;
+}
+.prescriptions-container ul {
+  list-style: none;
+  padding: 0;
+}
+.prescriptions-container li {
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.sidebar-btn {
+  display: block;
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 250px;
+  background: #667eea;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar-btn:hover {
+  background: #5a67d8;
+}
+/* ✅ Highlight Active Menu Item */
+.sidebar-btn.active {
+  background: white;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.logout {
+  background: red;
+  margin-top: 20px;
+}
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.welcome-message {
+  font-size: 24px;
+  color: #333;
+}
+.dashboard-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.logout-btn {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.dashboard-section {
+  margin-top: 20px;
+}
+.toggle:hover {
+  text-decoration: underline;
 }
