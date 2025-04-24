@@ -153,20 +153,6 @@ h1 {
   margin-bottom: 10px;
 }
 
-.sidebar-btn {
-  display: block;
-  background: none;
-  border: none;
-  color: white;
-  padding: 10px;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-
 .sidebar-btn:hover {
   background: #5a67d8;
 }
