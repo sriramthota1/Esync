@@ -196,16 +196,24 @@ h1 {
   color: #333;
 }
 
-
-
 .dashboard-title {
   text-align: center;
   font-size: 24px;
   margin-bottom: 20px;
 }
+.logout-btn {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
 
-
-
+.dashboard-section {
+  margin-top: 20px;
+}
 .toggle:hover {
   text-decoration: underline;
 }
